@@ -18,6 +18,67 @@ A React Native CLI application that replicates an account setup experience with 
 - ✅ **Unit Tests** - Comprehensive test coverage for validation and auth logic
 - ✅ **Modern UI** - Clean and intuitive user interface with theme support
 
+## Screenshots
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+### Login Screen
+<img src="screenshots/login-screen.png" alt="Login Screen" width="250"/>
+
+The login screen features:
+- Email/Username input field
+- Password input with show/hide toggle
+- Primary login button
+- Biometric authentication option (Face ID/Touch ID/Fingerprint)
+- Create New Account button for registration
+- Terms of Service and Privacy Policy acceptance message
+
+### Login with Biometric
+<img src="screenshots/login-biometric.png" alt="Login with Biometric" width="250"/>
+
+Biometric authentication support:
+- Quick login option using Face ID, Touch ID, or Fingerprint
+- Seamless authentication experience
+- Fallback to password login if biometric fails
+
+### Registration Screen
+<img src="screenshots/registration-screen.png" alt="Registration Screen" width="250"/>
+
+Comprehensive registration form with:
+- First Name and Last Name fields
+- Email input with validation
+- Phone Number field
+- Country selector dropdown
+- Password fields with strength indicator
+- Password visibility toggle
+- Confirm Password field
+- Terms and Conditions checkbox
+- Form validation with real-time feedback
+
+### Profile Screen
+<img src="screenshots/profile-screen.png" alt="Profile Screen" width="250"/>
+
+User profile displaying:
+- User avatar with initials
+- Personalized greeting
+- Full Name
+- Email address
+- Phone Number
+- Country
+- Member Since date
+- Dark Mode toggle in Settings section
+
+### Account Lockout
+<img src="screenshots/login-failed.png" alt="Account Lockout Alert" width="250"/>
+
+Security feature in action:
+- Account lockout after 5 failed login attempts
+- 15-minute lockout period
+- Clear error messaging
+- Protection against brute-force attacks
+
+</div>
+
 ## Requirements
 
 - Node.js >= 18.x
