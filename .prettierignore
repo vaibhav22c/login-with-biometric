@@ -1,0 +1,8 @@
+node_modules/
+ios/
+android/
+build/
+dist/
+coverage/
+*.lock
+
